@@ -1,0 +1,125 @@
+#CMP104Assignment
+#1.area of a square
+def calcArea(lengthA):
+    A = lengthA ** 2
+    return A
+lengthA = float(input("Enter the length of the square: "))
+A = calcArea(lengthA)
+print(A)
+#2.Area of a rectangle
+def calcAreaofrectangle(length_1, breadth_2):
+    A = length_1 * breadth_2
+    return A
+length_1 = float(input("Enter the length of the rectangle: "))
+breadth_2 = float(input("Enter the breadth of the rectangle: "))
+A = calcAreaofrectangle(length_1, breadth_2)
+print(A)
+#3.Area of a triangle
+def calcAreaoftriangle(base_b, height_h):
+    A = 1/2*base_b*height_h
+    return A
+base_b = float(input("Enter the base of the triangle: "))
+height_h = float(input("Enter the height of the triangle: "))
+A = calcAreaoftriangle(base_b, height_h)
+print(A)
+#4.Area of a trapezoid
+def calcAreaoftrapezoid(b1, b2, height):
+    A = 1/2*(b1 + b2) * height
+b1 = float(input("Enter the first base of the trapezoid: "))
+b2 = float(input("Enter the second base of the trapezoid: "))
+height = float(input("Enter the height of the trapeziod: "))
+A = calcAreaoftrapezoid(b1, b2, height)
+print(A)
+#5.Area of a circle
+def calcAreaofcircle(radius):
+    A = 22/7*radius**2
+    return A
+radius = float(input("Enter the radius for the circle: "))
+A = calcAreaofcircle(radius)
+print(A)
+#6.Circumference of a circle
+def calcCircumferenceofcircle(radius):
+    A = 2*22/7*radius
+    return A
+radius = float(input("Enter the radius for the circumference of the circle: "))
+A =  calcCircumferenceofcircle(radius)
+print(A)
+#7.Surface area of a cube
+def calcSurfaceareaofacube(length_a):
+    S = 6*length_a**2
+    return S
+length_a = float(input("Enter the length of the side of the cube: "))
+S =  calcSurfaceareaofacube(length_a)
+print(S)
+#8. Curved surface of a cylinder
+def calcCurvedsurfaceofacylinder(radius_r, height_h):
+    C = 2*22/7*radius*height
+    return C
+radius_r = float(input("Enter the radius of the curved surface: "))
+height_h = float(input("Enter the height of the curved surface: "))
+C = calcCurvedsurfaceofacylinder(radius_r, height_h)
+print(C)
+#9. Total surface area of the cylinder
+def calcTotalsurfaceareaofacylinder(radius_r, height_h):
+    T = 2 *22/7*(radius_r+height_h)
+    return T
+radius_r = float(input("Enter the radius of the total surface area: "))
+height_h = float(input("Enter the height of the total surface area: "))
+T = calcTotalsurfaceareaofacylinder(radius_r, height_h)
+print(T)
+#10.Volume of a cylinder
+def calcVolumeofacylider(radius_r, height_h):
+    V = 22/7*(radius_r**2+height_h)
+    return V
+radius_r = float(input("Enter the radius of the volume of the cylinder: "))
+height_h = float(input("Enter the height of the volume of the cylinder: "))
+V = calcVolumeofacylider(radius_r, height_h)
+print(V)
+#11.Acceleration Formula
+def calcAccelerationformula(finalvelocity_v, initalvelocity_u , time_t):
+    A = (finalvelocity_v-initalvelocity_u)/time_t
+    return A
+finalvelocity_v = float(input("Enter the final velocity: "))
+initalvelocity_u = float(input("Enter the inital velocity: "))
+time_t = float(input("Enter the time: "))
+A = calcAccelerationformula(finalvelocity_v, initalvelocity_u , time_t)
+print(A)
+#12. formula for density
+def calcFormulafordensity(mass_m, vol_v):
+    P = (mass_m/vol_v)
+    return P
+mass_m = float(input("Enter the mass: "))
+vol_v = float(input("Enter the volume: "))
+P = calcFormulafordensity(mass_m, vol_v)
+print (P)
+#13. formula for pressure
+def calcFormulaforpressure(force, area):
+    P = force/area
+    return P
+force = float(input("Enter the force: "))
+area = float(input("Enter the area: "))
+P = calcFormulaforpressure(force, area)
+print(P)
+#14. formula for kinetic energy
+def calcFormulaforkineticenergy(mass, vol):
+    E = 1/2*mass*vol**2
+    return E
+mass = float(input("Enter the mass: "))
+vol = float(input("Enter the vol: "))
+E = calcFormulaforkineticenergy(mass, vol)
+print(E)
+#15. formula for voltage
+def calcFormulaforvoltage(current, resistance):
+    return V
+current = float(input("Enter the current: "))
+resistance = float(input("Enter the resistance: "))
+V = calcFormulaforvoltage(current, resistance)
+print(V)
+
+
+
+
+
+
+
+
